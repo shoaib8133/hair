@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hairstyles & Beauty Inspiration | Pinterest Gallery</title>
+<meta name="description" content="Discover trending hairstyles, beauty tips, and inspiration. World-class Pinterest-style gallery of hair tutorials and beauty looks.">
+
+<!-- Google tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E2YM751NPW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-E2YM751NPW');
+</script>
+
+<style>
+/* ============================================================
+   PINKIFY BEAUTY — PINTEREST LANDING PAGE
+   Pink-to-Peach gradient + sparkle accents (Pinterest-friendly)
+   ============================================================ */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #2a2a2a;
+  line-height: 1.6;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255,182,193,0.35) 0%, transparent 38%),
+    radial-gradient(circle at 88% 22%, rgba(255,218,185,0.40) 0%, transparent 42%),
+    radial-gradient(circle at 50% 92%, rgba(255,192,203,0.32) 0%, transparent 50%),
+    linear-gradient(135deg, #fff5f7 0%, #ffe8ec 25%, #ffe0d6 55%, #ffeede 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image:
+    radial-gradient(circle at 8% 30%, rgba(255,255,255,0.6) 0 2px, transparent 3px),
+    radial-gradient(circle at 22% 70%, rgba(255,182,193,0.5) 0 2px, transparent 3px),
+    radial-gradient(circle at 38% 15%, rgba(255,255,255,0.45) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 55% 55%, rgba(255,200,210,0.45) 0 2px, transparent 3px),
+    radial-gradient(circle at 72% 30%, rgba(255,255,255,0.6) 0 1.5px, transparent 2.5px),
+    radial-gradient(circle at 90% 75%, rgba(255,192,203,0.55) 0 2px, transparent 3px);
+  background-size: 420px 420px;
+  animation: sparkle 14s linear infinite;
+  opacity: 0.6;
+}
+@keyframes sparkle {
+  0%   { background-position: 0 0,0 0,0 0,0 0,0 0,0 0; }
+  100% { background-position: 420px 420px, -420px 420px, 420px -420px, -420px -420px, 0 840px, 840px 0; }
+}
+
+/* ----- Top Sticky 728x90 Ad ----- */
+.top-sticky-ad {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background: linear-gradient(90deg, #fff0f3 0%, #ffe5d9 100%);
+  border-bottom: 1px solid rgba(255,91,138,0.15);
+  padding: 6px 8px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70px;
+  box-shadow: 0 2px 8px rgba(255,91,138,0.08);
+}
+.top-sticky-ad .ad-label {
+  position: absolute; left: 8px; top: 2px;
+  font-size: 9px; color: #aa6677; letter-spacing: .5px;
+  text-transform: uppercase; opacity: .6;
+}
+
+/* ----- Sticky Side Ads 160x600 (desktop) ----- */
+.side-ad {
+  position: fixed;
+  top: 130px;
+  width: 160px;
+  z-index: 100;
+  display: none;
+}
+.side-ad.left  { left: 10px; }
+.side-ad.right { right: 10px; }
+@media (min-width: 1400px) { .side-ad { display: block; } }
+
+/* ----- Header / Hero ----- */
+header.hero {
+  position: relative; z-index: 1;
+  text-align: center;
+  padding: 60px 20px 40px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+header.hero h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  background: linear-gradient(135deg, #ff5b8a 0%, #ff9472 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+header.hero p {
+  font-size: 1.1rem;
+  color: #6b5560;
+  max-width: 620px;
+  margin: 0 auto;
+}
+header.hero .sparkle {
+  display:inline-block; margin: 0 8px;
+  animation: spin 6s linear infinite;
+}
+@keyframes spin { from { transform: rotate(0); } to { transform: rotate(360deg); } }
+
+/* ----- Search / Filter Bar ----- */
+.search-bar {
+  position: relative; z-index: 1;
+  max-width: 540px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+.search-bar input {
+  width: 100%;
+  padding: 14px 22px;
+  border-radius: 30px;
+  border: 2px solid rgba(255,91,138,0.18);
+  font-size: 15px;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(8px);
+  outline: none;
+  transition: all .3s ease;
+}
+.search-bar input:focus {
+  border-color: #ff5b8a;
+  box-shadow: 0 6px 18px rgba(255,91,138,0.15);
+}
+
+/* ----- Main Container ----- */
+main.gallery-wrap {
+  position: relative; z-index: 1;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px 80px;
+}
+
+/* ----- Pinterest Masonry Grid ----- */
+.masonry {
+  column-count: 5;
+  column-gap: 18px;
+}
+@media (max-width: 1200px) { .masonry { column-count: 4; } }
+@media (max-width: 900px)  { .masonry { column-count: 3; } }
+@media (max-width: 640px)  { .masonry { column-count: 2; } }
+@media (max-width: 380px)  { .masonry { column-count: 1; } }
+
+.pin {
+  break-inside: avoid;
+  margin-bottom: 18px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 4px 14px rgba(255,91,138,0.08);
+  transition: transform .3s ease, box-shadow .3s ease;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.pin:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(255,91,138,0.20);
+}
+.pin img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: linear-gradient(135deg, #ffe5ec, #ffe0d6);
+}
+.pin .pin-body {
+  padding: 14px 16px 16px;
+}
+.pin .pin-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-bottom: 6px;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pin .pin-desc {
+  font-size: 13px;
+  color: #756069;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pin .pin-tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, #ff5b8a 0%, #ff9472 100%);
+  color: #fff;
+  font-size: 11px;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+
+/* ----- Inline Box Ad inside masonry (after every 6 pins) ----- */
+.pin-ad {
+  break-inside: avoid;
+  margin-bottom: 18px;
+  padding: 14px;
+  background: linear-gradient(135deg, #fff7f9 0%, #fff0eb 100%);
+  border: 1px solid rgba(255,91,138,0.18);
+  border-radius: 18px;
+  box-shadow: 0 4px 14px rgba(255,91,138,0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+}
+.pin-ad::before {
+  content: 'ADVERTISEMENT';
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #c66985;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.pin-ad iframe { max-width: 100%; border: 0; }
+
+/* ----- Loading state ----- */
+.loading {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+  color: #aa6677;
+}
+.spinner {
+  width: 40px; height: 40px;
+  border: 3px solid rgba(255,91,138,0.2);
+  border-top-color: #ff5b8a;
+  border-radius: 50%;
+  margin: 0 auto 14px;
+  animation: rot 1s linear infinite;
+}
+@keyframes rot { to { transform: rotate(360deg); } }
+
+/* ----- Footer ----- */
+footer {
+  position: relative; z-index: 1;
+  text-align: center;
+  padding: 30px 20px 80px;
+  color: #8a6f78;
+  font-size: 13px;
+}
+footer a { color: #ff5b8a; text-decoration: none; font-weight: 600; }
+</style>
+</head>
+<body>
+
+<!-- ============== TOP STICKY 728x90 AD ============== -->
+<div class="top-sticky-ad">
+  <span class="ad-label">Ad</span>
+  <div id="top-ad-slot"></div>
+</div>
+
+<!-- ============== LEFT SIDE STICKY 160x600 ============== -->
+<div class="side-ad left"><div id="side-left-slot"></div></div>
+
+<!-- ============== RIGHT SIDE STICKY 160x600 ============== -->
+<div class="side-ad right"><div id="side-right-slot"></div></div>
+
+<!-- ============== HERO ============== -->
+<header class="hero">
+  <h1><span class="sparkle">✦</span> Hairstyles & Beauty Inspiration <span class="sparkle">✦</span></h1>
+  <p>Trending hair looks, beauty tips, and step-by-step tutorials — handpicked for you in a Pinterest-style gallery.</p>
+</header>
+
+<!-- ============== SEARCH ============== -->
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="🔍 Search hairstyles, beauty looks, tips…">
+</div>
+
+<!-- ============== GALLERY ============== -->
+<main class="gallery-wrap">
+  <div class="masonry" id="masonry">
+    <div class="loading">
+      <div class="spinner"></div>
+      Loading beautiful inspirations…
+    </div>
+  </div>
+</main>
+
+<footer>
+  Made with <span style="color:#ff5b8a">♥</span> for beauty lovers · <a href="#">Visit our blog</a>
+</footer>
+
+<!-- ============================================================
+     AD MANAGER + DATA LOADER
+     ============================================================ -->
+<script>
+/* =========================================================
+ * STEP 1 — REPLACE THIS WITH YOUR GITHUB JSON URL
+ *  Expected JSON format (array):
+ *  [
+ *    {
+ *      "title":  "Article title",
+ *      "description": "Short description",
+ *      "image":  "https://image-url.jpg",
+ *      "link":   "https://full-article-url",
+ *      "tag":    "Hairstyles"   // optional
+ *    },
+ *    ...
+ *  ]
+ * ========================================================= */
+var GITHUB_JSON_URL = "YOUR_GITHUB_JSON_URL_HERE";
+
+/* ----- AD POOL (same rotating ads as theme) ----- */
+var AD_POOL = [
+  { key:'728x90',  options:{'key':'ebca7f88ae00e7b54d4f3d0b6bdca4b7','format':'iframe','height':90,'width':728,'params':{}},  invoke:'https://emotionalhabitat.com/ebca7f88ae00e7b54d4f3d0b6bdca4b7/invoke.js' },
+  { key:'468x60',  options:{'key':'f4a8e7e6ec4de39898ece21683e4fb8c','format':'iframe','height':60,'width':468,'params':{}},  invoke:'https://emotionalhabitat.com/f4a8e7e6ec4de39898ece21683e4fb8c/invoke.js' },
+  { key:'300x250', options:{'key':'8f2e6276d0ac27c6334e22f11d2ca22a','format':'iframe','height':250,'width':300,'params':{}}, invoke:'https://emotionalhabitat.com/8f2e6276d0ac27c6334e22f11d2ca22a/invoke.js' },
+  { key:'320x50',  options:{'key':'71dee3ff3694e0cbad29008060373e7a','format':'iframe','height':50,'width':320,'params':{}},  invoke:'https://emotionalhabitat.com/71dee3ff3694e0cbad29008060373e7a/invoke.js' },
+  { key:'160x300', options:{'key':'4e525c22bc1d539b98141f162beb9a4f','format':'iframe','height':300,'width':160,'params':{}}, invoke:'https://emotionalhabitat.com/4e525c22bc1d539b98141f162beb9a4f/invoke.js' },
+  { key:'160x600', options:{'key':'65b399dddc6acde0c39bf29a4801659d','format':'iframe','height':600,'width':160,'params':{}}, invoke:'https://emotionalhabitat.com/65b399dddc6acde0c39bf29a4801659d/invoke.js' }
+];
+
+var NATIVE_SCRIPTS = [
+  { src: 'https://emotionalhabitat.com/056335174717e008dcf1106321cc0404/invoke.js', container: 'container-056335174717e008dcf1106321cc0404', async: true, cfasync: false },
+  { src: 'https://emotionalhabitat.com/ec/de/36/ecde36c9292f562029906e4ab1519ea1.js' }
+];
+
+/* Ads used inside the masonry (rotation) */
+var INLINE_ROTATION_DESKTOP = ['300x250','468x60','300x250','160x300','300x250','320x50'];
+var INLINE_ROTATION_MOBILE  = ['300x250','320x50','300x250','320x50'];
+
+function isMobile(){ return window.innerWidth < 768; }
+function uid(p){ return (p||'a') + '-' + Math.random().toString(36).slice(2,10); }
+
+function buildIframeAd(targetEl, ad){
+  if(!targetEl || !ad) return;
+  try {
+    var slotId = uid('slot');
+    targetEl.innerHTML = '<div id="' + slotId + '"></div>';
+    var slot = document.getElementById(slotId);
+    var s1 = document.createElement('script');
+    s1.type = 'text/javascript';
+    s1.text = 'atOptions = ' + JSON.stringify(ad.options) + ';';
+    slot.appendChild(s1);
+    var s2 = document.createElement('script');
+    s2.type = 'text/javascript';
+    s2.src = ad.invoke;
+    slot.appendChild(s2);
+  } catch(e){}
+}
+function adByKey(k){ for(var i=0;i<AD_POOL.length;i++){ if(AD_POOL[i].key===k) return AD_POOL[i]; } return null; }
+
+/* Load sticky top + side ads + native scripts */
+function loadStickyAds(){
+  buildIframeAd(document.getElementById('top-ad-slot'), isMobile() ? adByKey('320x50') : adByKey('728x90'));
+  if(!isMobile()){
+    buildIframeAd(document.getElementById('side-left-slot'),  adByKey('160x600'));
+    buildIframeAd(document.getElementById('side-right-slot'), adByKey('160x600'));
+  }
+  NATIVE_SCRIPTS.forEach(function(ns){
+    try {
+      var s = document.createElement('script');
+      s.src = ns.src;
+      if(ns.async) s.async = true;
+      if(ns.cfasync === false) s.setAttribute('data-cfasync','false');
+      document.body.appendChild(s);
+      if(ns.container){
+        var c = document.createElement('div');
+        c.id = ns.container;
+        document.body.appendChild(c);
+      }
+    } catch(e){}
+  });
+}
+
+/* ----- Render Pinterest pins + ads after every 6 articles ----- */
+function renderGallery(items){
+  var grid = document.getElementById('masonry');
+  grid.innerHTML = '';
+  var rotation = isMobile() ? INLINE_ROTATION_MOBILE : INLINE_ROTATION_DESKTOP;
+  var rotIdx = 0;
+
+  items.forEach(function(it, idx){
+    var pin = document.createElement('a');
+    pin.className = 'pin';
+    pin.href = it.link || '#';
+    pin.target = '_blank';
+    pin.rel = 'noopener';
+
+    var img = document.createElement('img');
+    img.loading = 'lazy';
+    img.alt = it.title || '';
+    img.src = it.image || 'https://via.placeholder.com/400x600/ffd6e0/ff5b8a?text=Beauty';
+    img.onerror = function(){ this.src = 'https://via.placeholder.com/400x500/ffd6e0/ff5b8a?text=Beauty'; };
+    pin.appendChild(img);
+
+    var body = document.createElement('div');
+    body.className = 'pin-body';
+    body.innerHTML =
+      '<div class="pin-title">' + escapeHTML(it.title || 'Untitled') + '</div>' +
+      '<div class="pin-desc">'  + escapeHTML(it.description || '') + '</div>' +
+      (it.tag ? '<span class="pin-tag">' + escapeHTML(it.tag) + '</span>' : '');
+    pin.appendChild(body);
+    grid.appendChild(pin);
+
+    // After every 6 articles → inject a rotating box ad inside the masonry
+    if((idx + 1) % 6 === 0){
+      var adBox = document.createElement('div');
+      adBox.className = 'pin-ad';
+      var ad = adByKey(rotation[rotIdx % rotation.length]);
+      rotIdx++;
+      grid.appendChild(adBox);
+      buildIframeAd(adBox, ad);
+    }
+  });
+}
+
+function escapeHTML(s){
+  return String(s).replace(/[&<>"']/g, function(c){
+    return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c];
+  });
+}
+
+/* ----- Sample data fallback (used if GITHUB_JSON_URL not set) ----- */
+var SAMPLE_DATA = [
+  {title:'Top 10 Trending Hairstyles for 2026', description:'Bold cuts, soft waves, and the looks everyone is asking for.', image:'https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=500', link:'#', tag:'Hairstyles'},
+  {title:'Bridal Hair Inspiration', description:'Elegant updos and romantic curls for your big day.', image:'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500', link:'#', tag:'Bridal'},
+  {title:'Easy 5-Minute Hairstyles', description:'Quick looks for busy mornings — perfect for work or school.', image:'https://images.unsplash.com/photo-1560869713-da86bd4f31a8?w=500', link:'#', tag:'Quick'},
+  {title:'Curly Hair Care Guide', description:'Define your curls without frizz with these expert tips.', image:'https://images.unsplash.com/photo-1595152772835-219674b2a8a6?w=500', link:'#', tag:'Care'},
+  {title:'Bob Haircut Ideas', description:'From classic to edgy — find your perfect bob.', image:'https://images.unsplash.com/photo-1554519515-242161756769?w=500', link:'#', tag:'Bob'},
+  {title:'Hair Color Trends', description:'Honey blonde, rose gold, copper — which is your match?', image:'https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500', link:'#', tag:'Color'},
+  {title:'Glow-Up Beauty Routine', description:'The 7-step routine for radiant, healthy skin.', image:'https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=500', link:'#', tag:'Beauty'},
+  {title:'Bun Hairstyles', description:'Messy buns, sleek buns, braided buns — endless ideas.', image:'https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=500', link:'#', tag:'Buns'},
+  {title:'Hair Growth Tips', description:'Natural ways to grow longer, thicker hair.', image:'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=500', link:'#', tag:'Tips'},
+  {title:'Festival Hair Looks', description:'Boho braids, glitter roots, and statement accessories.', image:'https://images.unsplash.com/photo-1517232115160-ff93364542dd?w=500', link:'#', tag:'Festival'},
+  {title:'Office-Ready Hairstyles', description:'Professional and polished looks for the workplace.', image:'https://images.unsplash.com/photo-1605980776566-0486c3ac7617?w=500', link:'#', tag:'Office'},
+  {title:'Kids Hairstyle Ideas', description:'Cute and easy styles for school days.', image:'https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=500', link:'#', tag:'Kids'}
+];
+
+/* ----- Load data ----- */
+function loadData(){
+  if(!GITHUB_JSON_URL || GITHUB_JSON_URL === 'YOUR_GITHUB_JSON_URL_HERE'){
+    // Use sample data as fallback
+    renderGallery(SAMPLE_DATA);
+    return;
+  }
+  fetch(GITHUB_JSON_URL)
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if(Array.isArray(data) && data.length){
+        renderGallery(data);
+      } else {
+        renderGallery(SAMPLE_DATA);
+      }
+    })
+    .catch(function(){ renderGallery(SAMPLE_DATA); });
+}
+
+/* ----- Search filter ----- */
+document.getElementById('searchInput').addEventListener('input', function(e){
+  var q = e.target.value.toLowerCase();
+  document.querySelectorAll('.pin').forEach(function(p){
+    var txt = p.innerText.toLowerCase();
+    p.style.display = txt.indexOf(q) > -1 ? '' : 'none';
+  });
+});
+
+/* ----- Init ----- */
+loadStickyAds();
+loadData();
+</script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"4edd5f8ec12a48cfa682ab8261b80a79","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

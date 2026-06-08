@@ -1,0 +1,152 @@
+[
+  {
+    "title": "31 Hairstyles With Bangs That Prove A Little Fringe Goes A Long Way",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/06/1-long-natural-waves-with-curtain-bangs.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/06/31-hairstyles-with-bangs-that-prove.html",
+    "description": "Explore how different fringe styles like curtain bangs and blunt cuts can completely transform your face shape and overall hairstyle look."
+  },
+  {
+    "title": "30 Inspiring Long Hairstyles For Women Over 50 With Fine Hair",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/04/1-piecey-face-framing-layers.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/04/30-inspiring-long-hairstyles-for-women.html",
+    "description": "Discover elegant long haircuts for women over fifty designed to add volume and movement to fine, thinning hair through creative layered styles."
+  },
+  {
+    "title": "32 Summer Hairstyles For Medium Hair That Keep You Cool And Stylish",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/04/1-soft-natural-waves.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/04/32-summer-hairstyles-for-medium-hair.html",
+    "description": "Find breathable medium-length hairstyles including soft waves and low buns designed to help your hair handle summer heat, humidity, and busy days."
+  },
+  {
+    "title": "31 Gorgeous Haircuts That Look Even Better In Your 30s",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/03/1-classic-bob.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/03/31-gorgeous-haircuts-that-look-even.html",
+    "description": "Your thirties are the perfect time to explore sophisticated bobs, textured pixies, and long layers that prioritize personality and easy maintenance routines."
+  },
+  {
+    "title": "31 Low-Maintenance Blonde Hair Ideas That Work For Real Life",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/02/1-long-blonde-hair-with-face-framing-layers.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/02/31-low-maintenance-blonde-hair-ideas.html",
+    "description": "Achieve stunning blonde looks with techniques like balayage and rooted coloring that minimize salon visits while keeping your hair bright and beautiful."
+  },
+  {
+    "title": "32 Caramel Balayage Hair Color Ideas That Are Absolutely Stunning",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/02/1-caramel-ombre-on-straight-hair.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/02/32-caramel-balayage-hair-color-ideas.html",
+    "description": "Warm up your brunette base with glowing caramel balayage highlights that add depth, dimension, and a sun-kissed finish to any hair texture."
+  },
+  {
+    "title": "31 Bixie Haircuts That Perfectly Blend Bob and Pixie Hairstyles",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/01/1-textured-choppy-bixie-with-side-swept-fringe.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/01/31-bixie-haircuts-that-perfectly-blend.html",
+    "description": "The bixie hybrid cut combines the manageability of a bob with the edgy lightness of a pixie for a versatile short hairstyle."
+  },
+  {
+    "title": "33 Cherry Red Hair Color Ideas That Prove Red Is Always in Style",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/01/1-long-cherry-red-waves.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/01/33-cherry-red-hair-color-ideas-that.html",
+    "description": "From deep burgundy to vibrant fiery tones, explore cherry red hair color variations that bring boldness and sophistication to every skin tone."
+  },
+  {
+    "title": "40 Layered Hairstyles For Older Women That Add Volume And Movement",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/01/1-long-feathered-layers.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/01/40-layered-hairstyles-for-older-women.html",
+    "description": "Revitalize your hair with layered cuts designed to remove weight, build lift at the crown, and create natural movement for all lengths."
+  },
+  {
+    "title": "31 Fresh Spring Hairstyles For Long Hair That Steal The Spotlight",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2026/01/1-long-highlighted-waves.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2026/01/31-fresh-spring-hairstyles-for-long.html",
+    "description": "Celebrate spring with light, voluminous long hairstyles featuring beachy waves, bubble ponytails, and intricate braids that showcase your length and seasonal highlights."
+  },
+  {
+    "title": "32 Fresh Balayage Hair Color Ideas You’ll Want To Try In 2026",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/12/1-ash-brown-balayage.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/12/32-fresh-balayage-hair-color-ideas.html",
+    "description": "Discover the latest balayage trends for 2026, offering low-maintenance ways to add sun-touched dimension to ash brown, golden, and honey blonde hair colors."
+  },
+  {
+    "title": "31 Next-Level Angled Bob Haircuts That Are Fresh and Modern",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/08/1-short-layered-angled-bob-with-soft-waves.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/08/31-next-level-angled-bob-haircuts-that.html",
+    "description": "Refresh your look with an angled bob, featuring a shorter back and longer front to create a stylish, modern frame for any face."
+  },
+  {
+    "title": "31 Fresh Strawberry Blonde Hair Color Ideas To Try This Year",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/08/1-deep-strawberry-blonde-with-highlights.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/08/31-fresh-strawberry-blonde-hair-color.html",
+    "description": "Explore the perfect mix of warm red and bright blonde with these strawberry blonde ideas, ranging from subtle peach to vibrant copper tones."
+  },
+  {
+    "title": "31 Cute Short Fall Hairstyles Women Are Loving This Year",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/07/1-short-angled-chin-length-bob-with-bangs.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/07/31-cute-short-fall-hairstyles-women-are.html",
+    "description": "Transition into cooler weather with stylish short haircuts, including textured pixies and layered bobs that pair perfectly with cozy autumn sweaters and accessories."
+  },
+  {
+    "title": "33 Trendy Summer Hair Color Ideas You’ll See Everywhere This Season",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/05/1-strawberry-blonde.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/05/33-trendy-summer-hair-color-ideas-youll.html",
+    "description": "Get ready for summer with trending hair colors like butter blonde, golden brunette, and sunset spice that offer a radiant, sun-kissed seasonal glow."
+  },
+  {
+    "title": "32 Fresh Summer Haircuts You’ll Want To Try This Season",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/05/1-long-face-framing-layers.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/05/32-fresh-summer-haircuts-youll-want-to.html",
+    "description": "Beat the heat with fresh summer cuts ranging from long face-framing layers to low-maintenance bobs and pixies designed for hot weather adventures."
+  },
+  {
+    "title": "31 Beautiful Auburn Hair Color Ideas You'll Fall In Love With",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/02/1-glossy-auburn-bob-with-layers.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/02/31-beautiful-auburn-hair-color-ideas.html",
+    "description": "Discover the captivating warmth of auburn hair with ideas ranging from glossy mahogany waves to sun-kissed chestnut layers and bright copper-auburn blends."
+  },
+  {
+    "title": "31 Short Blonde Haircuts That Make The Cut For A Stylish Upgrade",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/02/1-wavy-bob-with-blonde-balayage-highlights.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/02/31-short-blonde-haircuts-that-make-cut.html",
+    "description": "Upgrade your style with short blonde haircuts like textured pixies and platinum bobs that combine bold lengths with high-impact light-reflecting color."
+  },
+  {
+    "title": "30 Trending Old Money Bob Haircuts With A Quiet Luxury Aesthetic",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/02/1-shoulder-length-old-money-bob-1.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/02/30-trending-old-money-bob-haircuts-with.html",
+    "description": "Embrace quiet luxury with old money bobs featuring sleek lines, voluminous blowouts, and refined curled-under ends for a timeless, expensive appearance."
+  },
+  {
+    "title": "33 Radiant Dark Blonde Hair Color Ideas You Can Copy",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/02/1-deep-dark-blonde-with-soft-golden-waves.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/02/33-radiant-dark-blonde-hair-color-ideas.html",
+    "description": "Find the perfect balance between richness and brightness with dark blonde shades, from warm caramel undertones to cool, sophisticated ashy tones."
+  },
+  {
+    "title": "33 Spring Hair Colors For Blondes That Are Perfect For A Seasonal Refresh",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/02/image.jpeg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/02/33-spring-hair-colors-for-blondes-that.html",
+    "description": "Refresh your blonde for spring with creamy, buttery, and sun-kissed tones that add brightness and life to your seasonal hair transformation."
+  },
+  {
+    "title": "33 Trendy Spring Hair Colors For Brunettes To Refresh Your Style",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/02/1-warm-honey-brown-with-subtle-highlights.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/02/33-trendy-spring-hair-colors-for.html",
+    "description": "Update your brunette look with spring-ready shades like warm honey brown, caramel balayage, and chestnut tones that add dimension and glossy shine."
+  },
+  {
+    "title": "33 Classic Straight Hairstyles For Men That Always Look Good",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/01/44-straight-hairstyles-for-men.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/01/33-classic-straight-hairstyles-for-men.html",
+    "description": "Explore sharp and timeless straight hairstyles for men, including slicked-back tapers, side-swept undercuts, and textured crops that never go out of style."
+  },
+  {
+    "title": "32 Iconic French Bob Haircuts That Never Go Out of Style",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/01/1-chin-length-french-bob.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/01/32-iconic-french-bob-haircuts-that.html",
+    "description": "Discover the effortless Parisian chic of French bob haircuts, from chin-length tousled styles to blunt-edged bobs with sophisticated curtain bangs."
+  },
+  {
+    "title": "33 Must-See Hair Color Ideas Trending In 2026",
+    "image": "https://thehairstyleedit.com/wp-content/uploads/2025/01/1-honey-blonde-hair-color.jpg",
+    "url": "https://hairstyleeditt.blogspot.com/2025/01/33-must-see-hair-color-ideas-trending.html",
+    "description": "Stay ahead of the trends in 2026 with must-try hair colors ranging from rich honey blonde to vibrant copper and electric pastel shades."
+  }
+]
